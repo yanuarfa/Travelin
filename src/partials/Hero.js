@@ -86,9 +86,13 @@ export default function Hero(props) {
           <div style={{ margin: "0 -30px" }}>
             <img
               src={ImageHero}
-              alt="Room with couches"
+              alt="Beautiful Landscape from sky"
               className="img-fluid position-absolute"
-              style={{ margin: "-30px", zIndex: 1 }}
+              style={{
+                margin: "-30px",
+                zIndex: 1,
+                borderRadius: "90px 15px 15px 15px",
+              }}
             />
             <div
               className="img-fluid position-absolute img-misc"
