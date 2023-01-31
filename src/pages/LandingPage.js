@@ -7,6 +7,7 @@ import MostPicked from "partials/MostPicked";
 import landingPage from "json/landingPage.json";
 import Categories from "partials/Categories";
 import Testimoni from "partials/Testimoni";
+import Footer from "partials/Footer";
 
 export default class LandingPage extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ export default class LandingPage extends Component {
         />
         <Categories data={landingPage.categories} />
         <Testimoni data={landingPage.testimonial} />
+        <Footer />
       </>
     );
   }
